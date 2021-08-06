@@ -18,7 +18,7 @@ pipeline {
     }
 
     
-   	stage('clean')
+   	stage('SCM Checkout')
 	{
 	   steps{
            
