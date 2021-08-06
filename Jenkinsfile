@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-    git 'https://github.com/shaddam1702/JavaUnitTes'
+    git 'https://github.com/shaddam1702/JavaUnitTest'
   }
   stage('Clean maven'){
     sh 'mvn clean'
